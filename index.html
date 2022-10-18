@@ -10,9 +10,53 @@
 </head>
 <body>
     <div class="page-wrapper">
+        <header class="homepage">
+            <div class="container">
+                <a href="#" class="menuStack simpleText">Home</a>
+                <a href="#sectionAboutMe" class="menuStack ">About me</a>
+                <a href="#sectionSkills" class="menuStack ">Skills</a>
+                <a href="#sectionPortfolio" class="menuStack ">Portfolio</a>
+                <a href="#sectionContacts" class="menuStack ">Contacts</a>
+                <hr>    
+                <h1 class="title" id="sectionAboutMe">Denis Novik</h1>
+                
+                <p class="simpleText">UX | UI designer <br>
+                    24 years old, Minsk</p>
+
+                    <p class="langSupport">RU | ENG</p>
+                <div class="portfolio_img">
+                    <img src="./image/DNovik.jpg" alt="Denis Novik photo">
+                </div>
+            </div>
+        </header>
+        <section class="aboutMe" id="sectionAboutMe">
+            <div class="container">
+                <h2 class="title portfolio__title">About me</h2>
+                <p class="simpleText">Hi, I'm Denis - UX/UI designer from Minsk. </p>
+                    <p class="simpleText">I'm interested in design and everything connected with it.</p>
+                    
+                    <p class="simpleText">I'm studying at courses "Web and mobile design </p>
+                    <p class="simpleText">interfaces" in IT-Academy.</p>
+                    
+                    <p class="simpleText">Ready to implement excellent projects</p>
+                     <p class="simpleText">with wonderful people.</p>
+            </div>
+        </section>
+        <section class="skills" id="sectionSkills">
+            <div class="container">
+            <h2 class="title portfolio__title" id="sectionSkills">Skills</h2>
+            <p class="simpleText">I work in such programs as</p>
+            <div class="portfolio__caption">
+                <img src="./image/PhotoshopCap.png" alt="Photoshop Caption">
+                <img src="./image/IllustratorCap.png" alt="Illustrator Caption">
+                <img src="./image/AfterEffCap.png" alt="After Effects Caption">
+                <img src="./image/FigmaCap.png" alt="Figma Caption">
+            </div>
+        </div>
+        </section>
         <section class="portfolio">
             <div class="container">
-                <h2 class="title portfolio__title">Portfolio</h2>
+                <h2 id="sectionPortfolio" class="title portfolio__title">Portfolio</h2>
                 <div class="portfolio_img">
                     <img src="./image/cloneIt.jpg" alt="Image Sheet" width="300px">
                 </div>
@@ -37,11 +81,22 @@
                 </p>
             </div>
         </section>
-        <footer>
+        <footer class="contatsCaption" id="sectionContacts">
             <div class="container">
                 <h2 class="title portfolio__title">Contacts</h2>
                 <p class="page-text">Want to know more or just chat? 
-                    You are welcome!</p>
+                    </p>
+                    <p class="simpleText">You are welcome!</p>
+                    <div class="container buttonElement">
+                        <img src="./image/messageButton.png" alt="Send a message button">
+                    </div>
+                    <div class="container social__media">
+                        <img src="./image/socialMedia.png" alt="Social Media links">
+                    </div>
+                    <div class="footer__text">
+                        <p>Like me on</p>
+                        <p>LinkedIn, Instagram, Behance, Dribble</p>
+                    </div>
             </div>
         </footer>
     </div>
