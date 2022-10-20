@@ -83,7 +83,6 @@ color: #070707;
     font-size: 18px;
     /* line-height: 21px; */
     text-align: right;
-    margin-bottom: 10px;
     /* Black */
     
     color: #070707;
@@ -166,6 +165,9 @@ margin-bottom: 47px;
     
 }
 
+.topTitle{
+    display: flex;
+}
 .menuStack{
     display: inline;
     margin-left: 100px;
