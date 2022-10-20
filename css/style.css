@@ -2,12 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 img{
     width: 100%;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
 
+color: #828282;
+}
 .title{
     margin-top: 60px;
   
@@ -53,9 +71,6 @@ color: #070707;
     line-height: 21px;
     text-align: right;
     margin-bottom: 10px;
-    
-        /* margin-bottom: 30px;
-        margin-top: 20px; */
     /* Black */
     
     color: #070707;
@@ -76,6 +91,7 @@ width: 100%;
     width: 1445px;
 height: 506px;
 width: 100%;
+
 }
 .simpleText{
     font-family: 'Arial';
@@ -132,8 +148,10 @@ margin-bottom: 47px;
     display: flex;
     margin-top: 110px;
     justify-content: space-around;
+    
     flex-direction: row;
     max-width: 400px;
+    
 }
 
 .menuStack{
