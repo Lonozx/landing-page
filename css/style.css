@@ -39,6 +39,19 @@ line-height: 54px;
 
 color: #070707;
 }
+.mainTitle{
+    margin-top: 60px;
+  
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 47.3392px;
+line-height: 0px;
+
+/* Black */
+
+color: #070707;
+}
 
 .page-text{
     font-family: 'Arial';
@@ -68,7 +81,7 @@ color: #070707;
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
+    /* line-height: 21px; */
     text-align: right;
     margin-bottom: 10px;
     /* Black */
@@ -101,6 +114,7 @@ font-size: 18px;
 line-height: 21px;
 text-align: center;
 margin-bottom: 10px;
+line-height: normal;
     /* margin-bottom: 30px;
     margin-top: 20px; */
 /* Black */
@@ -144,12 +158,10 @@ margin-bottom: 47px;
 .portfolio__caption{
     width: 500px;
     min-width: 166;
-    margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     margin-top: 110px;
-    justify-content: space-around;
-    
-    flex-direction: row;
+    row-gap: 30px;
+    flex-wrap: wrap;
     max-width: 400px;
     
 }
