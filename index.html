@@ -1,123 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
-    <!--Style linkage-->
+    <title>Denis Novik</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="page-wrapper">
-        <header class="homepage">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" class="menuStack simpleText">Home</a>
-                        </li>
-                        <li>
-                            <a href="#sectionAboutMe" class="menuStack ">About me</a>
-                        </li>
-                        <li>
-                            <a href="#sectionSkills" class="menuStack ">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#sectionPortfolio" class="menuStack ">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#sectionContacts" class="menuStack ">Contacts</a>
-                        </li>
+        <div class="container">
+            <div class="container__listed">
+                <div class="container__navigation">
+                    <ul class="container__navigation">
+                        <li class="text-list">Home</li>
+                        <li class="text-list">About Me</li>
+                        <li class="text-list">Skills</li>
+                        <li class="text-list">Portfolio</li>
+                        <li class="text-list">Contacts</li>
                     </ul>
-        
-            </nav>
-                <hr>
-                    <div class="topTitle">
-                <h1 class="mainTitle" id="sectionAboutMe">Denis Novik</h1>
-                
-                <p class="simpleText">UX | UI designer <br>
-                    24 years old, Minsk</p>
-
-                    <p class="langSupport">RU | ENG</p>
                 </div>
-                
-                <div class="portfolio_img">
-                    <img src="./image/DNovik.jpg" alt="Denis Novik photo">
-                </div>
-            </div>
-        </header>
-        <section class="aboutMe" id="sectionAboutMe">
-            <div class="container">
-                <h2 class="title portfolio__title">About me</h2>
-                <p class="simpleText">Hi, I'm Denis - UX/UI designer from Minsk. </p>
-                    <p class="simpleText">I'm interested in design and everything connected with it.</p>
-                    
-                    <p class="simpleText">I'm studying at courses "Web and mobile design </p>
-                    <p class="simpleText">interfaces" in IT-Academy.</p>
-                    
-                    <p class="simpleText">Ready to implement excellent projects</p>
-                     <p class="simpleText">with wonderful people.</p>
-            </div>
-        </section>
-        <section class="skills" id="sectionSkills">
-            <div class="container">
-            <h2 class="title portfolio__title" id="sectionSkills">Skills</h2>
-            <p class="simpleText">I work in such programs as</p>
-            <div class="portfolio__caption">
-                <img src="./image/PhotoshopCap.png" alt="Photoshop Caption">
-                <img src="./image/IllustratorCap.png" alt="Illustrator Caption">
-                <img src="./image/AfterEffCap.png" alt="After Effects Caption">
-                <img src="./image/FigmaCap.png" alt="Figma Caption">
             </div>
         </div>
+        <div class="container">
+
+            <div class="container__title">
+                <div class="container__desc">
+                    <h1 class="title">Denis Novik</h1>
+                    <div class="container__text">
+                        <p class="title-text">UX | UI designer</p>
+                        <p class="title-text">24 years old, Minsk</p>
+                    </div>
+
+                    <div class="container__lang">
+                        <p class="RU">RU</p> |
+                        <p class="ENG">ENG</p>
+                    </div>
+                </div>
+                <div class="container__img">
+                    <img src="./img/DNovik.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <section class="aboutME">
+            <div class="container">
+                <div class="container__section">
+                    <h2 class="section-title">About me</h2>
+                    <p class="title-text section-mate">Hi, I'm Denis - UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.</p>
+
+                    <p class="title-text section-mate"> I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.</p>
+
+                    <p class="title-text section-mate"> Ready to implement excellent projects
+                        with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="Skills">
+            <div class="container">
+                <div class="container__skills">
+                    <h2 class="section-title">Skills</h2>
+                    <p class="title-text skills-desc">I work in such programs as</p>
+                    <div class="container__imgs-skills">
+                        <div class="skills-item-sector">
+                            <img class="skills-item" src="./img/PS-SVG.svg" alt="Adobe Photoshop">
+                            <p class="img-desc">Adobe Photoshop</p>
+                            <div class="skills-grade">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Empty.svg" alt="star empty image">
+                            </div>
+                        </div>
+                        <div class="skills-item-sector">
+                            <img class="skills-item" src="./img/AI-SVG.svg" alt="Adobe Illustrator">
+                            <p class="img-desc">Adobe Illustrator</p>
+                            <div class="skills-grade">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Empty.svg" alt="star empty image">
+                                <img class="stars-form" src="./img/Star-Empty.svg" alt="star empty image">
+                            </div>
+                        </div>
+                        <div class="skills-item-sector">
+                            <img class="skills-item" src="./img/AE-SVG.svg" alt="Adobe After Effects">
+                            <p class="img-desc">Adobe After Effects</p>
+
+                            <div class="skills-grade">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Empty.svg" alt="star empty image">
+                            </div>
+                        </div>
+                        <div class="skills-item-sector">
+                            <img class="skills-item" src="./img/FG-SVG.svg" alt="Figma Design">
+                            <p class="img-desc">Figma</p>
+                            <div class="skills-grade">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Filled.svg" alt="star filled image">
+                                <img class="stars-form" src="./img/Star-Empty.svg" alt="star empty image">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </section>
         <section class="portfolio">
             <div class="container">
-                <h2 id="sectionPortfolio" class="title portfolio__title">Portfolio</h2>
-                <div class="portfolio__img">
-                    <img src="./image/cloneIt.jpg" alt="Image Sheet" width="300px">
+                <div class="container__portfolio">
+                    <div class="container__portfolio-item">
+                   <h2 class="section-title">Portfolio</h2>
+                   <img class="portfolio" src="./img/cloneIt.jpg" alt="">
+                   <p class="portfolio-description">Online fashion store - Homepage</p>
                 </div>
-                <p class="page-text portfolio__text">
-                    Online Fashion Store - Homepage
-                </p>
-            </div>
-            <div class="container">
-               <div class="portfolio__img">
-                <img src="./image/reebok.jpg" alt="Reebok Image" width="300px">
-               </div>
-               <p class="page-text portfolio__text">
-                Reebok Store - Concept
-            </p>
-            </div>
-            <div class="container">
-                <div class="portfolio__img">
-                    <img src="./image/braun.jpg" alt="Braun Image" width="300px">
+                    <div class="container__portfolio-item">
+                   <img class="portfolio" src="./img/reebok.jpg" alt="">
+                   <p class="portfolio-description">Reebok Store - Concept</p>
                 </div>
-                <p class="page-text portfolio__text">
-                    Braun Landing Page - Concept
-                </p>
+                    <div class="container__portfolio-item">
+                   <img class="portfolio" src="./img/braun.jpg" alt="">
+                   <p class="portfolio-description">Braun Landing Page - Concept</p>
+                </div>
+                </div>
             </div>
         </section>
-        <footer class="contatsCaption" id="sectionContacts">
-            <div class="container">
-                <h2 class="title portfolio__title">Contacts</h2>
-                <p class="page-text">Want to know more or just chat? 
-                    </p>
-                    <p class="simpleText">You are welcome!</p>
-                    <div class="container buttonElement">
-                        <img src="./image/messageButton.png" alt="Send a message button">
-                    </div>
-                    <div class="container social__media">
-                        <img src="./image/socialMedia.png" alt="Social Media links">
-                    </div>
-                    <div class="footer__text">
-                        <p>Like me on</p>
-                        <p>LinkedIn, Instagram, Behance, Dribble</p>
-                        <br>
-                    </div>
-            </div>
-        </footer>
     </div>
+
 </body>
+
 </html>
