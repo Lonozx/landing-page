@@ -272,7 +272,16 @@ color: #070707;
 }
 
 .skills-desc{
-    padding: 69px 315px;
+    /* padding: 69px 315px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
 }
 
 @media (max-width:768px) {
