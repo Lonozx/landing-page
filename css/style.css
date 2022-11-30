@@ -272,7 +272,7 @@ color: #070707;
 }
 
 .skills-desc{
-    /* padding: 69px 315px; */
+    padding: 69px 315px;
     display: flex;
     flex-direction: column;
     justify-content: center;
